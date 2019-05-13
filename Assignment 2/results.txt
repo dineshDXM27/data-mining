@@ -1,0 +1,89 @@
+(base) Alpha:Assignment 2 namanjain$ python main.py batch 1 2000 roc
+-----------------------------------------
+Type: Batch Processing with learning rate: 1.0
+Iteration(s): 2181
+Time(s): 18.203
+Weights: [-1.49098696 -4.78447725  5.11921818]
+Accuracy = 95.1
+Area under the curve: 0.973548
+
+(base) Alpha:Assignment 2 namanjain$ python main.py batch 0.5 2000
+-----------------------------------------
+Type: Batch Processing with learning rate: 0.5
+Iteration(s): 3150
+Time(s): 25.747
+Weights: [-1.26087992 -4.44191025  4.67542175]
+Accuracy = 95.2
+Area under the curve: 0.973008
+
+(base) Alpha:Assignment 2 namanjain$ python main.py batch 0.1 2000 roc
+-----------------------------------------
+Type: Batch Processing with learning rate: 0.1
+Iteration(s): 10000
+Time(s): 68.038
+Weights: [-1.11610858 -4.38383159  4.6946571 ]
+Accuracy = 96.7
+Area under the curve: 0.979888
+
+(base) Alpha:Assignment 2 namanjain$ python main.py batch 0.05 2000
+-----------------------------------------
+Type: Batch Processing with learning rate: 0.05
+Iteration(s): 10000
+Time(s): 70.591
+Weights: [-1.13270294 -3.98211143  4.3130002 ]
+Accuracy = 96.5
+Area under the curve: 0.98442
+
+(base) Alpha:Assignment 2 namanjain$ python main.py batch 0.01 2000 roc
+-----------------------------------------
+Type: Batch Processing with learning rate: 0.01
+Iteration(s): 10000
+Time(s): 85.177
+Weights: [-0.71740826 -3.20651244  3.29896356]
+Accuracy = 96.4
+Area under the curve: 0.987088
+
+(base) Alpha:Assignment 2 namanjain$ python main.py online 1 2000
+-----------------------------------------
+Type: Online Processing with learning rate: 1.0
+Iteration(s): 1
+Time(s): 0.012
+Weights: [-0.90940707 -5.68519311  5.54116621]
+Accuracy = 96.6
+Area under the curve: 0.98673
+
+(base) Alpha:Assignment 2 namanjain$ python main.py online 0.5 2000
+-----------------------------------------
+Type: Online Processing with learning rate: 0.5
+Iteration(s): 1
+Time(s): 0.036
+Weights: [-1.82468743 -3.91112571  5.5909463 ]
+Accuracy = 95.6
+Area under the curve: 0.979814
+
+(base) Alpha:Assignment 2 namanjain$ python main.py online 0.1 2000
+-----------------------------------------
+Type: Online Processing with learning rate: 0.1
+Iteration(s): 2
+Time(s): 0.098
+Weights: [-1.64556962 -4.12312839  4.12952077]
+Accuracy = 95.5
+Area under the curve: 0.9641000000000001
+
+(base) Alpha:Assignment 2 namanjain$ python main.py online 0.05 2000
+-----------------------------------------
+Type: Online Processing with learning rate: 0.05
+Iteration(s): 2
+Time(s): 0.132
+Weights: [-1.13717709 -3.73438355  3.90350847]
+Accuracy = 96.8
+Area under the curve: 0.982994
+
+(base) Alpha:Assignment 2 namanjain$ python main.py online 0.01 2000
+-----------------------------------------
+Type: Online Processing with learning rate: 0.01
+Iteration(s): 9
+Time(s): 0.621
+Weights: [-0.9873711  -3.60545619  3.86429619]
+Accuracy = 96.3
+Area under the curve: 0.979304
